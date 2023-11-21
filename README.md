@@ -16,6 +16,8 @@ After installing dependencies in your virtual env, you just have to execute the 
 uvicorn app:app --reload
 ```
 
+If you want to look at the swagger ui, you just have to navigate to `/docs` route.
+
 ### Resources example
 * `/students`: Gets a list of all students.
     * Method: GET
@@ -26,6 +28,3 @@ uvicorn app:app --reload
     * Method: GET
     * Parameters: `student_id`: The student ID
     * Response: JSON
-
-
-Created by [@porto-o]
