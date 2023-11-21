@@ -9,6 +9,13 @@ You can install all the dependencies using the `Requirements.txt` file, with the
 
 ```pip install -r requirements.txt```
 
+### How to run?
+After installing dependencies in your virtual env, you just have to execute the following command in order to run the project:
+
+```
+uvicorn app:app --reload
+```
+
 ### Resources example
 * `/students`: Gets a list of all students.
     * Method: GET
@@ -21,4 +28,4 @@ You can install all the dependencies using the `Requirements.txt` file, with the
     * Response: JSON
 
 
-Created by @porto-o
+Created by [@porto-o]
